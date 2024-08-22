@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+    
+.container{
+    display: flex;
+    justify-content: center;
+    background: url(../Images/dark.jpg);
+    width: 100%;
+}
+.notificationcontainer{
+    background-color:#fff;
+    width: 750px;
+    margin: 3rem;
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    padding-bottom: 60px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.notificationHeader{
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+#num-of-notif{
+    background-color: aquamarine;
+    color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    width: 30px;
+    height: 30px;
+    border-radius: 0.5rem;
+    margin-left: 10px;
+}
+#mark-as-read{
+    color: brown;
+    cursor: pointer;
+    transition: 0.6s ease;
+    border: 1px solid rgba(0,0,0,0.9);
+}
+#mark-as-read:hover{
+    color: black;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.notificationCard{
+    display: flex;
+    align-items: center;
+    padding: 1.2rem;
+    border-radius: 1rem;
+    border: 2px solid rgba(0,0,0,0.7);
+}
+.notificationCard img{
+    width: 80px;
+    border-radius: 3rem;
+}
+.notificationCard .description{
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+.unread{
+    background-color: rgb(193, 224, 230);
+}
